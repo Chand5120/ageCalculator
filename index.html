@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="flexCenter">
+        <div>
+          <p class = "case1">Day</p>
+          <input type="number" class="day widthCommmon" />
+        </div>
+        <div>
+          <p class = "case1">Month</p>
+          <input type="number" class="month widthCommmon" />
+        </div>
+        <div>
+          <p class = "case1">Year</p>
+          <input type="number" class="year widthCommmon" />
+        </div>
+      </div>
+      <div class="buttonDiv">
+        <div class="dummy"></div>
+        <div class="buttonDiv1">
+          <img src="./assets/images/icon-arrow.svg" alt="" srcset="">
+        </div>
+      </div>
+      <div class="details">
+        <p><span class="colorFirst disYear">--</span>years</p>
+        <p><span class="colorFirst disMonth">--</span>months</p>
+        <p><span class="colorFirst disDay">--</span> days</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
